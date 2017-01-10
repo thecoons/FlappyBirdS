@@ -1,0 +1,7 @@
+todo_homepage:
+  path: /test/
+  defaults: { _controller: AppBundle:Todo:index }
+
+Neuroevo:
+  path: /
+  defaults: { _controller: AppBundle:Default:index }

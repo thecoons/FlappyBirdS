@@ -1,0 +1,8 @@
+
+new_bot:
+    path:     /newBot
+    defaults: { _controller: AppBundle:Bot:newBot }
+
+get_bot:
+    path:     /getBot
+    defaults: { _controller: AppBundle:Bot:getBot }
